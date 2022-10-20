@@ -22,7 +22,21 @@
 현재 갖고 있는 사과의 수를 의미하는 numOfApples 변수에 123이라는 값이 할당되어 있을 경우 필요한 바구니
 의 수를 구하는 프로그램을 구현하시오. */
 
+// const numOfApples = 123;
 
+// const extra = (numOfApples % 10) / 10;
+
+// let basketCount =(numOfApples/ 10) -extra;
+// basketCount += extra > 0 ? 1: 0;
+// console.log(basketCount);
+
+
+function numOfApples(n){
+let basketCount;
+basketCount = Math.ceil(n/10);
+return basketCount;
+}
+console.log(numOfApples(123));
 
 /** 문제4 */
 
