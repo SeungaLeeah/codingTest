@@ -10,8 +10,8 @@ console.log(solution(str1));
 
 
 function solution(s){
-    let answer;
-    
+    let answer=s;
+    answer=answer.replaceAll("A","#");
     return answer;
 }
 
