@@ -1,6 +1,14 @@
 function solution(arr){
-    let answer;
-    
+    let answer = arr;
+    let sum = arr.reduce((a,b)=>a+b,0);
+    for(let i=0; i<8; i++){
+        for(let j=i+1; j<9; j++){
+            if(sum-(arr[i]+arr[j])===100){
+                arr.splice(j,1);
+                arr.splice(i,0);
+            }
+        }
+    }
     return answer;
 }
 

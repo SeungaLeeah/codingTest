@@ -1,16 +1,21 @@
-// function solution(s){         
-//     let answer= s.toUpperCase();
-//     return answer;
-// }
+function solution(s){         
+    let answer= s.toUpperCase();
+    return answer;
+}
+let str1="ItisTimeToStudy";
+console.log(solution(str1));
 
-// function solution(s){
-//     let answer="";
-//     for(let x of s){
-//         if(x===x.toLowerCase()) answer+=x.toUpperCase();
-//         else answer += x;
-//     }
-//     return answer;
-// }
+
+function solution(s){
+    let answer="";
+    for(let x of s){
+        if(x===x.toLowerCase()) answer+=x.toUpperCase();
+        else answer += x;
+    }
+    return answer;
+}
+let str2="ItisTimeToStudy";
+console.log(solution(str2));
 
 function solution(s){
     let answer="";
@@ -22,7 +27,6 @@ function solution(s){
     return answer;
 }
 
-
-let str="ItisTimeToStudy";
-console.log(solution(str));
+let str3="ItisTimeToStudy";
+console.log(solution(str3));
  
