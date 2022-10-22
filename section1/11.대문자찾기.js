@@ -1,13 +1,13 @@
-// function solution(s){         
-//     let answer="";
-//     for(let x of s){
-//         if(x===x.toUpperCase()) answer++
-//     }
-//     return answer;
-// }
+function solution(s){         
+    let answer="";
+    for(let x of s){
+        if(x===x.toUpperCase()) answer++
+    }
+    return answer;
+}
 
-// let str="KoreaTimeGood";
-// console.log(solution(str));
+let str1="KoreaTimeGood";
+console.log(solution(str1));
 
 
 function solution(s){         
@@ -19,5 +19,5 @@ function solution(s){
     return answer;
 }
 
-let str="KoreaTimeGood";
-console.log(solution(str));
+let str2="KoreaTimeGood";
+console.log(solution(str2));

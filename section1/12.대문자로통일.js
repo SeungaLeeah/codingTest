@@ -17,6 +17,7 @@ function solution(s){
 let str2="ItisTimeToStudy";
 console.log(solution(str2));
 
+
 function solution(s){
     let answer="";
     for(let x of s){
