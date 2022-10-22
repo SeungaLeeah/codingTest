@@ -12,7 +12,6 @@ let str1="BANANA";
 console.log(solution(str1));
 
 
-
 function solution(s){
     let answer=s;
     answer=answer.replaceAll("A","#");
