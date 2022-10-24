@@ -1,6 +1,6 @@
 function solution(arr){         
-    let answer;
-    
+    let answer="";
+
     return answer;
 }
 
