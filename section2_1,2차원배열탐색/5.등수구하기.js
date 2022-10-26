@@ -1,4 +1,5 @@
 function solution(arr){  
+    let answer;
     let n;
     
     return answer;
